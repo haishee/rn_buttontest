@@ -44,7 +44,7 @@ export default class LoginScreen extends Component {
   render() {
     return (
       <View style={styles.container}>
-          <BlueButton id = "temp" buttonText={this.state.buttonText} clickEvent={this.handlePressEvent}/>
+          <BlueButton label={this.state.buttonText} buttonText={this.state.buttonText} clickEvent={this.handlePressEvent}/>
       </View>
     );
   }

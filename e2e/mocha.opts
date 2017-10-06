@@ -1,0 +1,2 @@
+--recursive --timeout 120000 --bail
+--reporter mocha-simple-html-reporter --reporter-options output=report.html

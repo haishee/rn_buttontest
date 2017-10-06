@@ -1,6 +1,7 @@
 import React from 'react';
 import {
     TouchableHighlight, 
+    TouchableOpacity,
     View, 
     Text
 } from 'react-native';
@@ -12,7 +13,8 @@ const BlueButton = ({buttonText, clickEvent}) => {
             onPress={clickEvent}
             underlayColor="transparent">
             <View>
-            <Text style={styles.text}>
+            
+            <Text style={styles.text} testID="loginBtn">
                 {buttonText}
             </Text>
             </View>
